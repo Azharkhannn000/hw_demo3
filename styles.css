@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 49% 50%;
+}
+.but1{
+    background-color: rgb(117, 168, 255);
+    border: none;
+    height: 40px;
+    width: 475px;
+}
+.but2{
+    background-color: rgb(162, 130, 89);
+    border: none;
+    height: 40px;
+    width: 475px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(14, 80px);
+    grid-template-rows: repeat(8, 80px);
+}
+.first{
+    display: grid;
+    grid-row: 1 / 8;
+    grid-column: 2 / 4;
+}
+.second{
+    display: grid;
+    grid-row: 1 / 3;
+    grid-column: 4 / 6;
+}
+.third{
+    display: grid;
+    grid-row: 1 / 3;
+    grid-column: 6 / 8;
+}
+.four{
+    display: grid;
+    grid-row: 3 / 5;
+    grid-column: 4 / 6;
+}
+.five{
+    display: grid;
+    grid-row: 3 / 5;
+    grid-column: 6 / 8;
+}
+.six{
+    display: grid;
+    grid-row: 5 / 7;
+    grid-column: 4 / 6;
+}
+.seven{
+    display: grid;
+    grid-row: 5 / 7;
+    grid-column: 6 / 8;
+}
+
+
+.bir{
+    display: grid;
+    grid-row: 1 / 3;
+    grid-column: 8 / 12;
+}
+.eki{
+    display: grid;
+    grid-row: 1 / 3;
+    grid-column: 12 / 14;
+}
+.ush{
+    display: grid;
+    grid-row: 3 / 5;
+    grid-column: 8 / 10;
+}
+.tort{
+    display: grid;
+    grid-row: 3 / 5;
+    grid-column: 10 / 12;
+}
+.bes{
+    display: grid;
+    grid-row: 3 / 7;
+    grid-column: 12 / 14;
+}
+.bes-img{
+    height: 320px;
+    width: 150px;
+}
+.alty{
+    display: grid;
+    grid-row: 5 / 7;
+    grid-column: 8 / 10;
+}
+.zheti{
+    display: grid;
+    grid-row: 5 / 7;
+    grid-column: 10 / 12;
+}
+p{
+    margin-top: -150px;
+}
